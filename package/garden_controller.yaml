@@ -11,6 +11,21 @@ input_text:
     max: 100
 
 
+#==================
+#=== Input Numbers
+#==================
+input_number:
+
+  irrigation_controller_offline_wait: 
+    name: Time to wait for controller when offline
+    min: 1
+    max: 60
+    step: 1
+    mode: box
+    unit_of_measurement: secs
+    icon: mdi:timer-sand
+
+
 #================
 #=== Automations
 #================
@@ -53,6 +68,7 @@ automation:
   #=== are used in the history statistics sensors 
   #===================================================
   - alias: Irrigation Synchronise Sensor Zone Switches
+    mode: queued
     trigger:
       - platform: event
         event_type: state_changed
@@ -104,4 +120,3 @@ automation:
             {% else %}
               none
             {% endif %}
-            

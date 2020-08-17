@@ -1,8 +1,7 @@
+
 <h1 align="center">A Garden Irrigation System for Home Assistant (Version2)</h1>
 
-This is almost a '*pick-it-up-and-drop-it-in*' solution.
-
-__Please note the word 'almost'. I still recommend some understanding of Home Assistant in general and of Lovelace in particular if you choose to try this out.__
+__Please note that I recommend some understanding of Home Assistant in general and of Lovelace in particular if you choose to try this out.__
 
 Apart from my instructions here, there are some 'real world' guides on how to set up and configure this package which were written by people who have done it. I will link to them here:
 
@@ -26,6 +25,13 @@ Please understand that I am posting this project *purely as a way to share it* b
 I am only using GitHub literally as a repository. What that means is I simply copy my code from my PC to here so that it can be shared. There is no formal version control here other than that inherent in the Github editing history.
 
 One day maybe I'll delve further into how GitHub works but for now I'm afraid that is the situation.
+
+
+<h2> More than eight zones? </h2>
+
+I wrote this for use with up to eight zones but it can be quite easily adapted for use with more. I don't plan to change the code here to do this but @athan has done it and kindly allowed me to post a link to his branch.
+
+If you need more than eight zones look [here](https://github.com/athan71/HA-Irrigation-Version2/tree/16-zones).
 
 -----
 
